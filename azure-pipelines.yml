@@ -15,7 +15,7 @@ steps:
     versionSpec: '10.x'
   displayName: 'Install Node.js'
 
-- task: c4c-codescan@0
+- task: c4c-codescan@1
   inputs:
     ccaconnection: 'Constantin Scan Server'
     failonoptional: false
