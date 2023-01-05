@@ -15,7 +15,7 @@ steps:
     versionSpec: '10.x'
   displayName: 'Install Node.js'
 
-- task: onapsis-azure-platform.c4c-azure-pipeline-1.c4c-codescan-task-1.c4c-codescan@0
+- task: onapsis-azure-platform.c4c-azure-pipeline-1.c4c-codescan-task-1.c4c-codescan@1
   inputs:
     ccaconnection: 'CCA Azure'
     failonoptional: false
